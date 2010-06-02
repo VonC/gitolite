@@ -1,5 +1,16 @@
 # gitolite
 
+> IN THIS FORK: add two variable to .gitolite.rc to address *local* installations
+> (I.e. installation of Git and other tools not in the /usr/local usual path,
+> but rather in a custom path.
+
+  * ENV_PATH: can replace PATH (when user must not include /usr/local/bin but its own bin path)
+  * ENV_LD_LIBRARY_PATH: can be set if needed (when user has compiled tools with custom ld paths)
+  
+> WARNING: this branch is always REBASED on top of PU branch
+
+----
+
 Gitolite is an access control layer on top of git, which allows access control
 down to the branch level, including specifying who can and cannot *rewind* a
 given branch.
