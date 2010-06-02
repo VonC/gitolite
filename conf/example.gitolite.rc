@@ -76,13 +76,13 @@ $GL_CONF_COMPILED="$GL_ADMINDIR/conf/gitolite.conf-compiled.pm";
 # define it here (including your custom Git install path if you have one)
 # Otherwise don't define this setting.  
 # Warning: your PATH env variable will be replaced by the variable value.
-$ ENV_PATH="";
+$ENV_PATH="";
 
 # if your ld library path must be a special one (e.g. local to the user)
 # define it here.
 # Otherwise don't define this setting.  
 # Warning: your LD_LIBRARY_PATH env variable will be replaced by the variable value.
-$ ENV_LD_LIBRARY_PATH="";
+$ENV_LD_LIBRARY_PATH="";
 
 # if git on your server is on a standard path (that is
 #       ssh git@server git --version
