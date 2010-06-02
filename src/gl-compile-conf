@@ -69,10 +69,10 @@ die "$ABRT parse $ENV{GL_RC} failed: " . ($! or $@) unless do $ENV{GL_RC};
 # add a custom path for git binaries, if specified
 $ENV{PATH} .= ":$GIT_PATH" if $GIT_PATH;
 
-# add a custom path if explitely specified
+# add a custom path if explicitly specified
 $ENV{PATH} = "$ENV_PATH" if $ENV_PATH;
 
-# add a custom link path if explitely specified
+# add a custom link path if explicitly specified
 $ENV{LD_LIBRARY_PATH} = "$ENV_LD_LIBRARY_PATH" if $ENV_LD_LIBRARY_PATH;
 
 # ----------------------------------------------------------------------------
